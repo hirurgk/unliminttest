@@ -1,0 +1,77 @@
+#content {
+    margin-top: 70px;
+}
+
+.custom-file-label::after {
+    content: "Обзор";
+}
+.errors {
+    margin: 10px 0;
+    color: #de2222;
+}
+.success {
+    margin: 10px 0;
+    color: #1fcd28;
+}
+
+.sort{
+    margin-bottom: 7px;
+}
+.sort a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-done {
+    margin-top: 7px;
+}
+
+.btn-new-task {
+    margin: -47px 0 30px 0;
+}
+.btn-create-task {
+    margin: 30px 0;
+}
+.new-task-form {
+    display: none;
+}
+
+.table-tasks td:first-child {
+    white-space: nowrap;
+}
+.table-tasks ul {
+    margin-left: -33px;
+    list-style: none;
+}
+.table-tasks .task-preview {
+    display: none;
+}
+.table-tasks .task-preview td {
+    background: #f6f4d9;
+}
+.table-tasks tr.done td {
+    background: #e1f7e1;
+}
+.table-tasks tr li.done {
+    color: #12b612;
+    font-weight: bold;
+}
+.table-tasks tr li.done.hidden {
+    display: none;
+}
+.table-tasks img {
+    max-width: 320px;
+    max-height: 240px;
+}
+
+.task-description {
+    margin-bottom: 10px;
+}
+.task-description-update {
+    display: none;
+    margin-bottom: 12px;
+}
+
+.login-form .form-label-group {
+    margin-bottom: 12px;
+}
